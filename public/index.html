@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>管局大脑</title>
+    <script>
+        // rem适配
+        window.onresize = function () {
+            var em = document.documentElement.clientWidth / 100 / 19.2;
+            if (document.documentElement.clientWidth < 1000) {
+                return
+            }
+            document.getElementsByTagName('html')[0].style.fontSize = em + 'px';
+        }
+
+        var em = document.documentElement.clientWidth / 100 / 19.2;
+        document.getElementsByTagName('html')[0].style.fontSize = em + 'px';
+    </script>
+</head>
+<style>
+    #map {
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+    }
+</style>
+
+<body>
+    <canvas id="bg"></canvas>
+    <div id="app"></div>
+</body>
+
+</html>

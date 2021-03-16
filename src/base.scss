@@ -1,0 +1,85 @@
+@font-face {
+    src: url('../public/static/font/chathura-v1-latin-800.woff.ttf');
+    font-family: "font-Family-self";
+}
+
+@font-face {
+    src: url('../public/static/font/UnidreamLED.ttf');
+    font-family: "font-Family-number";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    cursor: default;
+    text-decoration: none;
+}
+
+// 反诈标题
+.fanzha-title {
+  background-image: url('../public/static/img/imgs/fanzha/img_titlebg3.png');
+  background-size: 100% 100%;
+  height: 38rem;
+  line-height: 38rem;
+  padding-left: 15rem;
+  margin-bottom: 15rem;
+  p {
+      font-size: 18rem;
+      color: #fff;
+  }
+}
+
+$g: #6beebb;
+
+.icon {
+    width: 4em;
+    height: 4em;
+    vertical-align: -0.15em;
+    fill: $blue3;
+    overflow: hidden;
+}
+#test1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #fff;
+}
+#bg {
+    width: 100%;
+    height: 99vh;
+    opacity: .1;
+}
+
+#app {
+    position: absolute;
+    left: 0;
+    top: 0; 
+}
+html,
+body,
+#app {
+    width: 100%;
+    min-width: 1366px;
+    // background-color: #0061b6;
+    // min-height: 960px;
+    // 兼容字号
+    // -webkit-text-size-adjust: none;
+    // min-width: 1600px;
+}
+.part {
+  overflow: hidden;
+//   margin-bottom: 20rem;
+}
+
+
+body {
+    background-image: url('../public/static/img/imgs/bg.png');
+    background-size: cover;
+    background-color: #02173b;
+}
+
